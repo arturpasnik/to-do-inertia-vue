@@ -8,6 +8,6 @@ module.exports = {
         './resources/js/**/*.vue',
     ],
     plugins: [
-        require('@tailwindcss/forms'),
+        require("tailgrids/plugin")
     ],
 }

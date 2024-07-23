@@ -18,6 +18,11 @@ class TaskController extends Controller
         );
     }
 
+    public function newpage()
+    {
+        return inertia('Tasks/Test',);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

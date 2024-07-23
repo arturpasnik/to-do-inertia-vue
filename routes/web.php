@@ -19,6 +19,8 @@ Route::post('/', [\App\Http\Controllers\TaskController::class, 'store'])->name('
 Route::put('/', [\App\Http\Controllers\TaskController::class, 'update'])->name('task.update');
 Route::delete('/', [\App\Http\Controllers\TaskController::class, 'destroy'])->name('task.destroy');
 
+Route::get('/test', [\App\Http\Controllers\TaskController::class, 'newpage'])->name('task.newpage');
+
 
 
 
